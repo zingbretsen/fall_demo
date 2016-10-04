@@ -28,3 +28,4 @@ for p in polls:
 
 with open('/tmp/polls_scraped.csv', 'w') as f:
     f.write(str('\n'.join(polls_extracted).encode('utf8')))
+
